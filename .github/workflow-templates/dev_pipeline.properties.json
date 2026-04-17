@@ -1,0 +1,6 @@
+{
+  "name": "Standard Maven CI",
+  "description": "Maven pipeline",
+  "iconName": "package",
+  "categories": ["continuous-integration"]
+}
