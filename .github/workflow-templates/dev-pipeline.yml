@@ -8,5 +8,5 @@ on:
 
 jobs:
   ci:
-    uses: TestActions/.github/workflows/test.yml@main
+    uses: testbhawna/TestActions/.github/workflows/test.yml@main
     secrets: inherit
