@@ -1,0 +1,12 @@
+name: Standard Maven CI
+
+on:
+  push:
+    branches: main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  ci:
+    uses: TestActions/.github/workflows/blank.yml@main
+    secrets: inherit
